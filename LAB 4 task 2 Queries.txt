@@ -1,0 +1,11 @@
+female(X).
+
+male(_).
+
+parent(X, Y), parent(Y, faisal).
+
+parent(ahmad, X), female(X).
+
+parent(X, ahmad), parent(X, muhammad).
+
+male(khan), parent(X, khan), parent(X, nora).
